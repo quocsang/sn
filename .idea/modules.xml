@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/landing-page-web-app/landing-page-web-app.iml" filepath="$PROJECT_DIR$/landing-page-web-app/landing-page-web-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sn-root-pom.iml" filepath="$PROJECT_DIR$/sn-root-pom.iml" />
+    </modules>
+  </component>
+</project>

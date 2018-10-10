@@ -1,0 +1,19 @@
+version: "3"
+services:
+   sn:
+     image: base-platform:latest
+     restart: always
+     networks:
+       - sn-net
+     tty: true
+   db-mysql:
+     image: mysql:5.7.22
+     restart: always
+     networks:
+       - contacts-net
+     environment:
+       MYSQL_ROOT_PASSWORD: root
+       MYSQL_DATABASE: test
+     tty: true
+networks:
+   contacts-net:
